@@ -35,9 +35,9 @@ function App() {
         </nav>
       </header>
       <main>
-        <h1 className='text-highlight' style={{ fontSize: '3em' }}>Welcome!👋</h1> 
+        <h1 className='text-highlight' style={{color: '#7276ba', fontSize: '3em' }}>Welcome!👋</h1> 
         <h3 className="typing-animation" style={{ fontSize: '1.3em' }}>I am Hannah, a recent CS/Music graduate from Case Western Reserve University.</h3> 
-        <h4 style={{fontStyle: 'italic'}}>I am currently on the job market! I am seeking a full-time position for Software & AI Engineer roles.
+        <h4 style={{fontStyle: 'italic'}}>I am currently on the job market! I am seeking a full-time Software or AI Engineer roles.
         </h4>
         <p>
           <text style={{color: '#7276ba', fontWeight: 'bold'}}>I am passionate about designing safe, reliable software and AI systems with positive social impact.</text>
@@ -47,9 +47,9 @@ function App() {
         <br />
         <h2>Briefly about Myself...</h2>
         <ul>
-            <li><strong>Programming Languages</strong>: I particularly enjoy coding in <b>Python, Java</b>, and functional program languages like <b>Haskell</b>. I am also proficient in other languages.</li>
+            <li><strong>Programming Languages</strong>: I particularly enjoy coding in <b>Python, Java</b>, and functional program languages like <b>Haskell</b>. I am also proficient in other languages, such as JavaScript, C#, and C/C++.</li>
             <li><strong>Data Science/Machine Learning</strong>: I can utilize frameworks like Pandas, NumPy, and Scikit-Learn.</li>
-            <li><strong>Technical Skills</strong>: Over the years, I picked up skills like leveraging APIs, Databases, Linux, Git, etc... </li>
+            <li><strong>Technical Skills</strong>: Over the years, I picked up skills like leveraging APIs, Databases, Linux, Git, and more. </li>
             <li><strong>Problem-Solving</strong>: I enjoy tackling complex problems and finding efficient solutions with computing!</li>
         </ul>
         <h4>Find the full list of skills and experience in the <Link to="/resume">Resume</Link> tab.</h4>

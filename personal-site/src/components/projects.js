@@ -35,7 +35,7 @@ function Projects() {
             </header>
             <main>
             <h1>Projects</h1>
-            <h4 style={{color: '#7276ba'}}><em>A few of the projects I have been working on over the years.</em></h4>
+            <h4 style={{color: '#7276ba'}}><em>A highlight of the few of the projects I have worked on over the years.</em></h4>
             <div class="grid-container">
                 <div class="grid-item project1">
                     <h3 class="project-name">chkim888.github.io</h3>
@@ -55,7 +55,7 @@ function Projects() {
                 <div class="grid-item project4">
                     <h3 class="project-name">Artifacts of the Past</h3>
                     <p class="description">A 2D platformer where you navigate obstacles</p>
-                    <a href="https://github.com/chkim888/Artifacts-of-the-Past" class="project-link" target="_blank">Demo</a>
+                    <a href="https://github.com/chkim888/Artifacts-of-the-Past" class="project-link" target="_blank">Source</a>
                 </div>
                 {/* <div class="grid-item">
                     <h3 class="project-name">AI Agent Hostility Simulator</h3>

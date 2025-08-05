@@ -62,12 +62,12 @@ h1, h2, h3 {
   padding: 10px 20px;
 }
 
-.navbar a:visited {
+/* .navbar a:visited {
   color: lightgray;
-}
+} */
 
 .navbar a:hover {
-  color: #7276ba;
+  color: lightgray;
   text-decoration-line: none;
 }
 
@@ -140,18 +140,18 @@ input[type="submit"] {
   background-color: white;
 } */
 
-a:visited {
+/* a:visited {
   color: lightgray; 
-}
+} */
 
 a {
-  color: #7276ba;
+  color: #8a8ee2;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #8a8ee2;
+  color: lightgray;
   text-decoration: underline;
 }
 
@@ -241,7 +241,7 @@ a:hover {
   color: lightgrey;
   display: inline-block;
   padding: 5px 5px;
-  background-color: #7276ba;
+  background-color: #8a8ee2;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.2s ease;
   margin-top: 10px;
@@ -249,7 +249,7 @@ a:hover {
 
 .project-link:hover {
   color: lightgrey;
-  background-color: #8a8ee2;
+  background-color: grey;
   transform: scale(1.05);
 }
 
