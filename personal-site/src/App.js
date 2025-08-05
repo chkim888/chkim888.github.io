@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header class="header">
         <div>
-          <a href="/" class="logo"> Chaehyeon Kim 👩🏻‍💻 </a>
+          <a href="/" class="logo"> Hannah Kim 👩🏻‍💻 </a>
         </div>
         <nav className="navbar">
           <ul>
@@ -36,12 +36,12 @@ function App() {
       </header>
       <main>
         <h1 className='text-highlight' style={{ fontSize: '3em' }}>Welcome!👋</h1> 
-        <h3 className="typing-animation" style={{ fontSize: '1.3em' }}>I am Chae, a CS and Music student, and a technology enthusiast.</h3> 
-        <h4 style={{fontStyle: 'italic'}}>I am currently on the job market! I am seeking a full-time position starting in August 2025.
+        <h3 className="typing-animation" style={{ fontSize: '1.3em' }}>I am Hannah, a recent CS/Music graduate from Case Western Reserve University.</h3> 
+        <h4 style={{fontStyle: 'italic'}}>I am currently on the job market! I am seeking a full-time position for Software & AI Engineer roles.
         </h4>
         <p>
           <text style={{color: '#7276ba', fontWeight: 'bold'}}>I am passionate about designing safe, reliable software and AI systems with positive social impact.</text>
-          <br /> So far, I have explored this interest by engaging in fascinating interdisciplinary research projects, working on topics like climate change, learning equality, and accessible UIs.
+          <br /> So far, I have explored this interest by engaging in fascinating interdisciplinary projects, working on topics like climate change, learning equality, and accessible UIs.
         </p>
 
         <br />
@@ -59,17 +59,17 @@ function App() {
         <p>I'm always excited to apply my skills in dynamic and challenging environments and contribute to building innovative technological solutions, furthering my growth as a computer scientist.</p>
 
         <h4 style={{ fontSize: '1.1em' }}><br></br><em>Connect with me on
-            &nbsp;<a href="https://www.linkedin.com/in/chkim0820/" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;
+            &nbsp;<a href="https://www.linkedin.com/in/chkim888/" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;
             to keep in touch! :)</em></h4>
       </main>
       <footer>
-        <p>© 2024 Chaehyeon Kim</p>
-        <a href="https://www.linkedin.com/in/chkim0820/" target="_blank" rel="noopener noreferrer">
+        <p>© 2025 Hannah Kim</p>
+        <a href="https://www.linkedin.com/in/chkim888/" target="_blank" rel="noopener noreferrer">
           <div className="link-button">
             <img src={linkedinLogo} alt="LinkedIn Icon" />
           </div>
         </a>
-        <a href="https://github.com/chkim0820" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/chkim888" target="_blank" rel="noopener noreferrer">
           <div className="link-button">
             <img src={githubLogo} alt="GitHub Icon" />
           </div>

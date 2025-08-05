@@ -73,7 +73,7 @@ function Contact() {
     <div className="App">
       <header class="header">
         <div>
-          <a href="/" class="logo"> Chaehyeon Kim 👩🏻‍💻 </a>  
+          <a href="/" class="logo"> Hannah Kim 👩🏻‍💻 </a>  
         </div>
         <nav className="navbar">
           <ul>
@@ -102,13 +102,13 @@ function Contact() {
         </div>
       </main>
       <footer>
-        <p>© 2024 Chaehyeon Kim</p>
-        <a href="https://www.linkedin.com/in/chkim0820/" target="_blank" rel="noopener noreferrer">
+        <p>© 2025 Hannah Kim</p>
+        <a href="https://www.linkedin.com/in/chkim888/" target="_blank" rel="noopener noreferrer">
           <div className="link-button">
             <img src={linkedinLogo} alt="LinkedIn Icon" />
           </div>
         </a>
-        <a href="https://github.com/chkim0820" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/chkim888" target="_blank" rel="noopener noreferrer">
           <div className="link-button">
             <img src={githubLogo} alt="GitHub Icon" />
           </div>
