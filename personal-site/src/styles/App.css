@@ -1,0 +1,291 @@
+html, body {
+  line-height: 1.5;
+  background-color: #201c1c;
+  color: #BFBFBF;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  background-color: #201c1c;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 100px;
+  border-bottom: 1px solid;
+  border-color: #3D3D3D;
+  position: fixed; 
+  top: 0; 
+  width: 90%; 
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none !important;
+}
+
+.navbar {
+  color: lightgray;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  color: lightgray;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* .navbar a:visited {
+  color: lightgray;
+} */
+
+.navbar a:hover {
+  color: lightgray;
+  text-decoration-line: none;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding-bottom:60px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  border-top: 1px solid;
+  border-color: #3D3D3D;
+}
+
+footer p {
+  margin: 0 1px; 
+}
+
+.link-button {
+  display: flex;
+  color: white;
+  padding: 6px 10px;
+}
+
+.link-button img {
+  vertical-align: middle;
+  width: 30px; 
+  height: 30px; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #3D3D3D;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+/* input[type="submit"]:hover {
+  background-color: white;
+} */
+
+/* a:visited {
+  color: lightgray; 
+} */
+
+a {
+  color: #8a8ee2;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.dates {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Modify after this with page changes */
+
+/* Grid backgrounds */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.grid-item {
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid lightgray;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.grid-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(65%) blur(2.5px);
+  z-index: 0;
+  border-radius: inherit;
+}
+
+.project1 {
+  background-image: url('../assets/project/website.png');
+}
+.project2 {
+  background-image: url('../assets/project/interpreter.png');
+}
+.project3 {
+  background-image: url('../assets/project/maritime.png');
+}
+.project4 {
+  background-image: url('../assets/project/artifact.png');
+}
+
+.project-name,
+.description,
+.project-link {
+  color: white;
+  position: relative;
+  z-index: 1;
+  background-color: #1f1f1fc0;
+  border-radius: 8px;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.project-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  position: relative;
+  border-radius: 8px;
+  font-size: 0.8em;
+  color: lightgrey;
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #8a8ee2;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.project-link:hover {
+  color: lightgrey;
+  background-color: grey;
+  transform: scale(1.05);
+}
+
+.text-highlight {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.typing-animation {
+  overflow: hidden; 
+  white-space: nowrap;
+  animation: typing 2.3s steps(60, end); 
+}
+
+/* width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFECCF; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
