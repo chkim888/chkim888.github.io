@@ -37,10 +37,10 @@ function App() {
       <main>
         <h1 className='text-highlight' style={{color: '#7276ba', fontSize: '3em' }}>Welcome!👋</h1> 
         <h3 className="typing-animation" style={{ fontSize: '1.3em' }}>I am Chaehyeon, a recent CS/Music graduate from Case Western Reserve University.</h3> 
-        <h4 style={{fontStyle: 'italic'}}>I am currently on the job market! I am seeking a full-time Software or AI Engineer roles.
+        <h4 style={{fontStyle: 'italic'}}>I am currently on the job market! I am seeking a full-time Software Engineer roles.
         </h4>
         <p>
-          <text style={{color: '#7276ba', fontWeight: 'bold'}}>I am passionate about designing safe, reliable software and AI systems with positive social impact.</text>
+          <text style={{color: '#7276ba', fontWeight: 'bold'}}>I am passionate about designing safe, reliable software systems with positive social impact.</text>
           <br /> So far, I have explored this interest by engaging in fascinating interdisciplinary projects, working on topics like climate change, learning equality, and accessible UIs.
         </p>
 

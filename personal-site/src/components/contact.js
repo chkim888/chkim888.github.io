@@ -1,4 +1,4 @@
-import { React, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useForm, ValidationError } from '@formspree/react';
 import linkedinLogo from '../assets/linkedin-logo.png';
